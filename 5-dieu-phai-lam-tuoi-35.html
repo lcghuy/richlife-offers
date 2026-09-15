@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bắt Đầu Đầu Tư Ở Tuổi 35: 5 Điều Phải Làm Khác Nếu Không Muốn Mất Thêm 10 Năm</title>
+<meta name="description" content="Gần như mọi lời khuyên đầu tư đang nói với người 25 tuổi. Ở tuổi 35 bạn còn ít thời gian hơn và gánh nhiều hơn. Đây là 5 chỗ bạn phải rẽ khác hướng.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{
+  --brand:#FEBE05;
+  --brand-deep:#D9A400;
+  --brand-ink:#8A6300;
+  --brand-soft:#FFF3D2;
+  --secondary:#2D6BE4;
+  --secondary-deep:#1E4FB0;
+  --secondary-soft:#E4EDFC;
+  --good:#27AE60;
+  --warn:#E67E22;
+  --paper:#F5F7FB;
+  --card:#FFFFFF;
+  --ink:#16233D;
+  --body:#3C4A63;
+  --muted:#6B7789;
+  --line:#DBE1EC;
+  --r:12px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{-webkit-text-size-adjust:100%}
+body{
+  background:var(--paper);
+  color:var(--body);
+  font-family:Montserrat,system-ui,-apple-system,'Segoe UI',sans-serif;
+  font-size:16.5px;
+  line-height:1.68;
+  padding:0 20px 80px;
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{max-width:620px;margin:0 auto}
+p{margin-bottom:15px}
+strong{color:var(--ink);font-weight:700}
+
+/* ---------- hero ---------- */
+header.hero{padding:42px 0 26px}
+.kicker{
+  display:inline-block;
+  font-size:12px;font-weight:700;letter-spacing:.14em;
+  color:var(--brand-ink);background:var(--brand-soft);
+  padding:6px 12px;border-radius:6px;margin-bottom:18px;
+}
+h1{
+  color:var(--ink);font-weight:800;
+  font-size:clamp(27px,7vw,38px);line-height:1.2;letter-spacing:-.02em;
+  margin-bottom:16px;
+}
+.deck{font-size:16.5px;color:var(--muted);line-height:1.62}
+.byline{
+  display:flex;align-items:center;gap:10px;
+  margin-top:26px;padding-top:16px;border-top:1px solid var(--line);
+  font-size:13.5px;color:var(--muted);
+}
+.avatar{
+  width:34px;height:34px;border-radius:50%;
+  background:var(--brand);color:var(--ink);
+  display:flex;align-items:center;justify-content:center;
+  font-weight:800;font-size:14px;flex:0 0 auto;
+}
+
+/* ---------- headers ---------- */
+h2.sec{
+  color:var(--ink);font-weight:800;
+  font-size:19px;line-height:1.35;letter-spacing:-.005em;
+  margin:38px 0 16px;
+}
+.step-head{
+  display:flex;gap:13px;align-items:flex-start;
+  margin:0 0 18px;
+}
+.step-badge{
+  flex:0 0 auto;
+  width:38px;height:38px;border-radius:10px;
+  background:var(--brand);color:var(--ink);
+  font-weight:800;font-size:18px;
+  display:flex;align-items:center;justify-content:center;
+}
+.step-head h2{
+  color:var(--ink);font-weight:800;
+  font-size:19.5px;line-height:1.32;letter-spacing:-.01em;
+  padding-top:5px;
+}
+section.step{
+  background:var(--card);
+  border-radius:var(--r);
+  padding:24px 20px 22px;
+  margin:22px 0;
+  box-shadow:0 1px 2px rgba(22,35,61,.05);
+}
+
+/* ---------- illustrations ---------- */
+figure{margin:4px 0 20px}
+figure svg{display:block;width:100%;height:auto}
+figcaption{
+  font-size:12.5px;color:var(--muted);
+  text-align:center;margin-top:8px;
+}
+
+/* ---------- callouts ---------- */
+.doit{
+  background:var(--brand-soft);
+  border-radius:10px;
+  padding:16px 17px;
+  margin:20px 0 16px;
+}
+.doit .lbl{
+  display:block;font-size:12px;font-weight:800;letter-spacing:.1em;
+  color:var(--brand-ink);margin-bottom:6px;
+}
+.doit p{margin:0;color:var(--ink);font-weight:500}
+
+.data{
+  background:var(--secondary-soft);
+  border-radius:10px;
+  padding:16px 17px;
+  margin:20px 0;
+  font-size:15.5px;
+}
+.data .lbl{
+  display:block;font-size:12px;font-weight:800;letter-spacing:.1em;
+  color:var(--secondary-deep);margin-bottom:6px;
+}
+.data p{margin:0;color:var(--ink)}
+.data p + p{margin-top:10px}
+
+.punch{
+  color:var(--ink);font-weight:700;font-size:18px;
+  line-height:1.45;margin:20px 0;
+}
+
+/* ---------- table ---------- */
+table{width:100%;border-collapse:collapse;font-size:14px;margin:18px 0}
+th,td{text-align:left;padding:11px 8px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-size:11.5px;font-weight:700;letter-spacing:.05em;color:var(--muted)}
+td{color:var(--ink)}
+td:last-child{font-weight:800;white-space:nowrap}
+tr.win{background:var(--brand-soft)}
+tr.win td:last-child{color:var(--brand-ink)}
+
+/* ---------- self check ---------- */
+.check{
+  background:var(--ink);color:#fff;
+  border-radius:var(--r);
+  padding:26px 20px 28px;
+  margin:34px 0;
+}
+.check h2{color:#fff;font-weight:800;font-size:20px;line-height:1.3;margin-bottom:6px}
+.check .sub{color:#A9B4C6;font-size:14.5px;margin-bottom:20px}
+.item{display:block;margin-bottom:12px;cursor:pointer}
+.item input{position:absolute;opacity:0;width:0;height:0}
+.item span{display:flex;gap:12px;align-items:flex-start;font-size:15.5px;line-height:1.5;color:#E8ECF3}
+.item span::before{
+  content:"";flex:0 0 auto;
+  width:22px;height:22px;margin-top:2px;
+  border:2px solid #4A5878;border-radius:6px;background:transparent;
+  transition:background .12s ease,border-color .12s ease;
+}
+.item input:checked + span::before{
+  background:var(--brand);border-color:var(--brand);
+  background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'><path d='M3.5 8.5l3 3 6-7' fill='none' stroke='%2316233D' stroke-width='2.4' stroke-linecap='round' stroke-linejoin='round'/></svg>");
+  background-size:15px;background-repeat:no-repeat;background-position:center;
+}
+.item input:checked + span{color:#fff}
+.item input:focus-visible + span::before{outline:2px solid var(--brand);outline-offset:3px}
+#result{margin-top:22px;padding-top:18px;border-top:1px solid #2C3B5C}
+#score{font-weight:800;font-size:26px;color:var(--brand);margin-bottom:6px;line-height:1.2}
+#verdict{color:#C3CCDA;font-size:15px;margin:0}
+
+/* ---------- offer ---------- */
+.offer{
+  background:var(--card);
+  border:2px solid var(--brand);
+  border-radius:var(--r);
+  padding:26px 20px 24px;
+  margin:34px 0 18px;
+}
+.offer h2{color:var(--ink);font-weight:800;font-size:20px;line-height:1.35;margin-bottom:14px}
+.offer ul{list-style:none;margin:16px 0}
+.offer li{padding-left:26px;position:relative;margin-bottom:9px;font-size:15.5px}
+.offer li::before{content:"✅";position:absolute;left:0;font-size:14px}
+.offer ul.nope li::before{content:"🚫"}
+.guarantee{
+  background:var(--brand-soft);border-radius:10px;
+  padding:14px 16px;margin:18px 0;
+  font-weight:700;color:var(--ink);font-size:15px;line-height:1.55;
+}
+.cta{
+  display:block;background:var(--brand);color:var(--ink);
+  text-decoration:none;font-weight:800;font-size:17px;
+  text-align:center;padding:17px 20px;border-radius:10px;
+  transition:background .15s;
+}
+.cta:hover{background:var(--brand-deep)}
+.cta:focus-visible{outline:3px solid var(--secondary);outline-offset:3px}
+.cta-sub{text-align:center;font-size:13px;color:var(--muted);margin-top:12px}
+.ps{font-size:15px;color:var(--muted);margin-top:26px;line-height:1.6}
+footer{
+  border-top:1px solid var(--line);margin-top:34px;padding-top:20px;
+  font-size:12.5px;line-height:1.65;color:var(--muted);
+}
+footer p{margin-bottom:10px}
+@media (min-width:700px){
+  body{font-size:17.5px}
+  section.step{padding:30px 28px 26px}
+  .offer,.check{padding-left:28px;padding-right:28px}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header class="hero">
+  <span class="kicker">DÀNH CHO NGƯỜI BẮT ĐẦU MUỘN</span>
+  <h1>Bắt Đầu Đầu Tư Ở Tuổi 35: 5 Điều Phải Làm Khác Nếu Không Muốn Mất Thêm 10 Năm</h1>
+  <p class="deck">Gần như mọi lời khuyên đầu tư trên mạng đang nói với người 25 tuổi. Ở tuổi 35 bạn còn ít thời gian hơn và gánh nhiều hơn. Làm y theo mấy lời khuyên đó lại chính là thứ khiến bạn mất thêm 10 năm nữa.</p>
+  <div class="byline"><span class="avatar">H</span><span>Huy Lương · RichLife · Toronto</span></div>
+</header>
+
+<main>
+
+<p>Năm 2017 mình đổ tiền mua Bitcoin ở gần 17.000 đô.</p>
+<p>Không phải vì mình nghiên cứu gì ghê gớm đâu. Mà vì mấy anh em ngồi cà phê ai cũng nói đang lời, ai cũng nói còn lên tiếp.</p>
+<p>Nó lên gần 20K. Mình phê lắm 🤪</p>
+<p>Rồi nó rớt. Mình gồng tới lúc còn 7K mới bán.</p>
+<p class="punch">Đi tong 500 triệu.</p>
+<p>Nhưng cái đau hơn không phải 500 triệu đó đâu. Là mấy năm sau mình phải làm lại từ đầu, trong khi tiền của mấy đứa bạn cùng tuổi đã nằm yên trong quỹ và cứ thế lớn lên.</p>
+<p>Mình kể chuyện này vì nếu bạn đang 35 và mới bắt đầu, bạn đang đứng đúng chỗ mình đã đứng. Và cái bẫy sắp tới nó hấp dẫn hơn bạn tưởng nhiều.</p>
+<p>Nói trước cho rõ: mình không phải chuyên gia tài chính được cấp phép. Mình làm quản trị rủi ro ở một ngân hàng lớn bên Canada, có cái MBA (mà chắc sắp thất nghiệp vì AI 😭), và đã tự đốt tiền đủ nhiều để biết cái gì không nên làm.</p>
+<p>Bài này là 5 thứ mình ước có ai nói với mình hồi đó.</p>
+
+<h2 class="sec">🤔 VÌ SAO TUỔI 35 PHẢI LÀM KHÁC?</h2>
+<p>Vì gần như mọi nội dung đầu tư trên mạng đang nói với người 25 tuổi.</p>
+<p>Người 25 sai thì sao? Họ còn 35 năm để sửa. Cháy sạch tài khoản cũng chỉ là học phí. Mất việc thì về nhà ba mẹ ở vài tháng.</p>
+<p>Bạn thì khác. Có thể đang nuôi con nhỏ. Có thể đang gửi tiền về cho ba mẹ. Có thể đang trả nợ nhà.</p>
+<p>Và quan trọng nhất: bạn còn ít thời gian hơn để lãi kép làm việc giùm bạn.</p>
+<p class="punch">Cùng một lời khuyên. Với người 25 là mạo hiểm chấp nhận được. Với bạn là rủi ro thật.</p>
+<p>Nên 5 điều dưới đây không phải "5 mẹo đầu tư". Nó là 5 chỗ mà người bắt đầu muộn phải rẽ khác hướng.</p>
+<p>Và mình nói luôn cái kết luận trước cho bạn đỡ hồi hộp: bắt đầu ở tuổi 35 không hề muộn. Cái làm bạn muộn là 10 năm loay hoay tiếp theo, chớ không phải 10 năm đã qua.</p>
+
+<!-- ============ 1 ============ -->
+<section class="step">
+  <div class="step-head">
+    <span class="step-badge">1</span>
+    <h2>BẮT ĐẦU BẰNG CON SỐ CỦA MÌNH, KHÔNG PHẢI BẰNG MÃ CỔ PHIẾU</h2>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 560 190" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Một bên chỉ có câu hỏi mua mã gì, bên kia là bốn bước theo thứ tự">
+      <rect x="8" y="14" width="250" height="162" rx="12" fill="#FFF" stroke="#DBE1EC" stroke-width="2"/>
+      <text x="133" y="42" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#6B7789">CÁCH ĐA SỐ LÀM</text>
+      <rect x="46" y="66" width="174" height="62" rx="10" fill="#FDECEC"/>
+      <text x="133" y="97" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="17" font-weight="800" fill="#C0392B">"Mua mã gì?"</text>
+      <text x="133" y="152" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="30" font-weight="800" fill="#E5AAA4">?</text>
+
+      <rect x="302" y="14" width="250" height="162" rx="12" fill="#FFF" stroke="#FEBE05" stroke-width="2"/>
+      <text x="427" y="42" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#8A6300">CÁCH RLC</text>
+      <g font-family="Montserrat,sans-serif" font-size="12.5" font-weight="600" fill="#16233D">
+        <rect x="322" y="56" width="210" height="24" rx="6" fill="#FFF3D2"/><text x="334" y="72">1 · Biết số của mình</text>
+        <rect x="322" y="86" width="210" height="24" rx="6" fill="#FFF3D2"/><text x="334" y="102">2 · Giữ được tiền</text>
+        <rect x="322" y="116" width="210" height="24" rx="6" fill="#FFF3D2"/><text x="334" y="132">3 · Hiểu bản thân</text>
+        <rect x="322" y="146" width="210" height="24" rx="6" fill="#FEBE05"/><text x="334" y="162">4 · Xuống tiền</text>
+      </g>
+    </svg>
+  </figure>
+
+  <p>Câu hỏi mình nhận nhiều nhất trên kênh là "mua mã gì anh ơi".</p>
+  <p>Mình hiểu vì sao. Nó là câu dễ hỏi nhất, và nó cho cảm giác mình đang làm gì đó.</p>
+  <p>Nhưng thử nghĩ coi. Bạn đi khám bệnh, bác sĩ chưa hỏi gì đã kê thuốc luôn.</p>
+  <p>Bạn có uống không?</p>
+  <p>Không ai trả lời được "mua mã gì" cho bạn khi chưa biết bạn tiêu bao nhiêu mỗi tháng, còn nợ gì, có ai phụ thuộc vào bạn không, và bao lâu nữa bạn cần tới số tiền đó.</p>
+  <p>Người 25 tuổi mua sai, họ có 30 năm sửa.</p>
+  <p class="punch">Bạn mua sai, bạn mất đúng cái thứ mà bạn đang thiếu: thời gian.</p>
+
+  <div class="doit">
+    <span class="lbl">LÀM KHÁC THẾ NÀO</span>
+    <p>Trước khi bỏ một đồng nào vào bất cứ đâu, viết ra 4 con số. Thu nhập mỗi tháng. Chi tiêu mỗi tháng. Tài sản đang có. Nợ đang có. Có 4 con số thôi, mà đa số chưa từng ngồi xuống viết ra bao giờ.</p>
+  </div>
+
+  <p>Bạn sẽ bất ngờ. Đa số người làm lần đầu đều nói cùng một câu: "ủa sao tiền mình đi đâu hết vậy" 😅</p>
+</section>
+
+<!-- ============ 2 ============ -->
+<section class="step">
+  <div class="step-head">
+    <span class="step-badge">2</span>
+    <h2>QUỸ KHẨN CẤP PHẢI CÓ TRƯỚC, KHÔNG PHẢI CÓ SAU</h2>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Quỹ khẩn cấp làm lớp đệm đỡ cú sốc, không có đệm thì phải bán tài sản">
+      <text x="140" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#6B7789">KHÔNG CÓ ĐỆM</text>
+      <path d="M40 46 L70 92 L40 92 Z M70 46 L100 92 L70 92 Z" fill="none"/>
+      <path d="M46 44 L60 70 L74 52 L88 84" fill="none" stroke="#E74C3C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="88,84 80,76 94,74" fill="#E74C3C"/>
+      <rect x="36" y="106" width="208" height="46" rx="10" fill="#FDECEC"/>
+      <text x="140" y="128" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#C0392B">Phải bán tài sản</text>
+      <text x="140" y="144" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="12" fill="#C0392B">đúng lúc thị trường đỏ</text>
+
+      <line x1="280" y1="24" x2="280" y2="160" stroke="#DBE1EC" stroke-width="2"/>
+
+      <text x="420" y="26" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#8A6300">CÓ ĐỆM 3–6 THÁNG</text>
+      <path d="M326 44 L340 70 L354 52 L368 84" fill="none" stroke="#E74C3C" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="368,84 360,76 374,74" fill="#E74C3C"/>
+      <rect x="316" y="92" width="208" height="14" rx="7" fill="#FEBE05"/>
+      <rect x="316" y="118" width="208" height="34" rx="10" fill="#E8F7EE"/>
+      <text x="420" y="140" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#27AE60">Tài sản không bị đụng tới</text>
+    </svg>
+  </figure>
+
+  <p>Cái này nghe chán chết. Ai cũng biết. Mà gần như không ai làm đúng thứ tự.</p>
+  <p>Đa số làm ngược: đầu tư trước, để dành sau, tính là "khi nào dư thì bù vô quỹ khẩn cấp".</p>
+  <p>Rồi chuyện xảy ra. Mất việc. Ba mẹ nằm viện. Con ốm. Xe hư.</p>
+  <p>Và bạn phải bán tài sản đang đầu tư để lấy tiền mặt. Đúng ngay lúc thị trường đang xuống, vì mấy cái xui nó hay rủ nhau tới cùng lúc.</p>
+  <p class="punch">Đây mới là lý do thật khiến nhiều người thua lỗ. Không phải vì chọn sai tài sản. Mà vì bị ép bán đúng lúc không nên bán.</p>
+
+  <div class="data">
+    <span class="lbl">📊 CÓ SỐ HẲN HOI</span>
+    <p>Người ta gọi cái này là behavior gap: khoảng cách giữa lợi nhuận của quỹ và lợi nhuận thật mà nhà đầu tư nhận được.</p>
+    <p>Morningstar làm báo cáo này hàng năm, tên là Mind the Gap. Năm nào cũng ra cùng một kết quả: nhà đầu tư nhận được ít hơn chính cái quỹ họ đang giữ, mỗi năm khoảng một tới một phẩy mấy phần trăm.</p>
+  </div>
+
+  <p>Cùng một quỹ. Cùng một khoảng thời gian. Người nhận ít hơn chỉ vì vào ra sai lúc.</p>
+  <p>Và lý do lớn nhất khiến người ta phải ra sai lúc là không có tiền mặt dự phòng.</p>
+  <p>Ở tuổi 25 chuyện này ít xảy ra hơn vì gánh nhẹ hơn. Ở tuổi 35 thì bạn là người phải xoay khi nhà có chuyện.</p>
+
+  <div class="doit">
+    <span class="lbl">LÀM KHÁC THẾ NÀO</span>
+    <p>Đủ 3 tới 6 tháng chi tiêu nằm ở chỗ rút ra được ngay. Rồi mới tính chuyện đầu tư. Không phải song song. Trước.</p>
+  </div>
+
+  <p>Nghe chậm rì. Nhưng nó chính là thứ cho phép bạn không phải bán khi thị trường đỏ lòm.</p>
+</section>
+
+<!-- ============ 3 ============ -->
+<section class="step">
+  <div class="step-head">
+    <span class="step-badge">3</span>
+    <h2>ĐỪNG LIỀU ĐỂ ĐUỔI KỊP</h2>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Đường đi nhanh rồi rớt so với đường đi đều lên chậm mà chắc">
+      <line x1="40" y1="150" x2="530" y2="150" stroke="#DBE1EC" stroke-width="2"/>
+      <path d="M46 138 C110 40, 150 26, 196 34 C244 44, 258 120, 300 150" fill="none" stroke="#E74C3C" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="300" cy="150" r="7" fill="#E74C3C"/>
+      <text x="150" y="24" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#C0392B">Đi nhanh để đuổi kịp</text>
+      <text x="300" y="170" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="12" font-weight="600" fill="#C0392B">về lại vạch xuất phát</text>
+
+      <path d="M46 142 C160 132, 300 108, 520 56" fill="none" stroke="#FEBE05" stroke-width="4.5" stroke-linecap="round"/>
+      <circle cx="520" cy="56" r="7" fill="#FEBE05"/>
+      <text x="452" y="42" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#8A6300">Đi đều, không văng ra</text>
+    </svg>
+  </figure>
+
+  <p>Đây là cái bẫy làm mất 10 năm. Và nó hấp dẫn nhất trong 5 cái.</p>
+  <p>Logic của nó nghe rất hợp lý: mình bắt đầu muộn 10 năm, vậy mình phải đi nhanh gấp đôi để đuổi kịp.</p>
+  <p>Từ suy nghĩ đó, người ta đi tìm thứ tăng nhanh. Coin. Đòn bẩy. Nhóm kín phím hàng. Mã nào đang nóng.</p>
+  <p>Mình đi đúng con đường đó rồi. Không chỉ vụ Bitcoin đâu. Có lần mình ăn hành mất 40% vì nghe theo một ông trông rất pro trong một nhóm kín. Ổng nói chắc nịch, biểu đồ vẽ đẹp, ai cũng gật gù.</p>
+  <p>Vấn đề không nằm ở chỗ đánh nhanh thì rủi ro cao. Câu đó ai cũng biết rồi.</p>
+  <p class="punch">Vấn đề là rủi ro không đối xứng với bạn ở tuổi 35.</p>
+  <p>Người 25 cháy tài khoản, họ mất tiền nhưng còn nguyên thời gian. Bạn cháy tài khoản, bạn mất tiền và mất luôn cái phần thời gian ít ỏi còn lại.</p>
+  <p>Bạn không có 10 năm nữa để làm lại đâu.</p>
+
+  <div class="data">
+    <span class="lbl">📊 CÓ SỐ HẲN HOI</span>
+    <p>Một nghiên cứu ở Brazil của Chague và De-Losso (trường FGV) theo dõi mấy người day trading trên thị trường tương lai. Trong nhóm kiên trì trên 300 ngày, 97% thua lỗ. Chỉ khoảng 1% kiếm được nhiều hơn mức lương tối thiểu.</p>
+    <p>Không phải 97% người mới. Là 97% người đã lì lợm làm cả năm trời.</p>
+  </div>
+
+  <p>Con số này không đổi theo tuổi bạn. Nhưng hậu quả thì có.</p>
+
+  <div class="doit">
+    <span class="lbl">LÀM KHÁC THẾ NÀO</span>
+    <p>Chấp nhận rằng bạn không đuổi kịp bằng cách đi nhanh hơn. Bạn đuổi kịp bằng cách bỏ vào nhiều hơn và không bị văng ra khỏi đường đua. Xem điều số 4 nha.</p>
+  </div>
+</section>
+
+<!-- ============ 4 ============ -->
+<section class="step">
+  <div class="step-head">
+    <span class="step-badge">4</span>
+    <h2>TĂNG SỐ TIỀN BỎ VÀO QUAN TRỌNG HƠN TĂNG LỢI NHUẬN</h2>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 560 210" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Bạn A bỏ ít tiền với mức tăng trưởng cao hơn vẫn về đích thấp hơn bạn B">
+      <line x1="60" y1="168" x2="530" y2="168" stroke="#DBE1EC" stroke-width="2"/>
+      <rect x="130" y="96" width="96" height="72" rx="8" fill="#C3CCDA"/>
+      <text x="178" y="86" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="17" font-weight="800" fill="#6B7789">2,8 tỷ</text>
+      <text x="178" y="188" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#16233D">BẠN A</text>
+      <text x="178" y="204" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="11.5" fill="#6B7789">2,5tr/tháng · 9%</text>
+
+      <rect x="350" y="46" width="96" height="122" rx="8" fill="#FEBE05"/>
+      <text x="398" y="36" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="20" font-weight="800" fill="#8A6300">4 tỷ</text>
+      <text x="398" y="188" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="13" font-weight="700" fill="#16233D">BẠN B</text>
+      <text x="398" y="204" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="11.5" fill="#6B7789">5tr/tháng · 7%</text>
+    </svg>
+    <figcaption>Bạn B đạt mức tăng trưởng thấp hơn. Vẫn về đích cao hơn.</figcaption>
+  </figure>
+
+  <p>Chỗ này là chỗ tuổi 35 khác tuổi 25 rõ nhất về mặt toán.</p>
+  <p>Lãi kép cần hai thứ: tiền và thời gian. Người 25 có ít tiền nhưng nhiều thời gian, nên với họ thời gian gánh phần lớn công việc.</p>
+  <p>Bạn thì ngược lại. Thời gian ít hơn, nhưng thu nhập tuổi 35 thường cao hơn hồi 25 nhiều.</p>
+  <p class="punch">Nghĩa là đòn bẩy mạnh nhất của bạn không phải là kiếm mức sinh lời cao hơn. Mà là số tiền bạn bỏ vào mỗi tháng.</p>
+  <p>Và đây là phần dễ chịu: số tiền bỏ vào là thứ bạn kiểm soát được 100%. Còn lợi nhuận thì không ai kiểm soát được, kể cả mấy ông nói chắc như đinh đóng cột trên mạng.</p>
+  <p>Cho bạn thấy bằng số luôn. Giả sử bạn 35 tuổi, thu nhập 25 triệu một tháng, tính tới năm 60 tuổi:</p>
+
+  <table>
+    <thead><tr><th></th><th>Bỏ vào mỗi tháng</th><th>Giả định tăng trưởng</th><th>Sau 25 năm</th></tr></thead>
+    <tbody>
+      <tr><td>Bạn A</td><td>2,5 triệu<br>(10% thu nhập)</td><td>9%</td><td>≈ 2,8 tỷ</td></tr>
+      <tr class="win"><td>Bạn B</td><td>5 triệu<br>(20% thu nhập)</td><td>7%</td><td>≈ 4 tỷ</td></tr>
+    </tbody>
+  </table>
+
+  <p>Bạn B đạt mức tăng trưởng thấp hơn hẳn. Mà về đích cao hơn bạn A gần 1,2 tỷ.</p>
+  <p>Vì bạn B kiểm soát được cái phần bỏ vào. Còn cái 9% kia thì bạn A chỉ có thể ngồi hy vọng.</p>
+  <p>Nói cho rõ: hai con số 7% và 9% ở trên là giả định để so sánh, không phải lời hứa. Mình không biết thị trường sẽ đi đâu, và ai nói chắc chắn về chuyện đó thì bạn nên nghi ngờ ngay. Điểm của cái bảng này không nằm ở con số cuối, mà nằm ở chỗ cột bên trái quan trọng hơn cột ở giữa.</p>
+
+  <div class="data">
+    <span class="lbl">📊 CÓ SỐ HẲN HOI</span>
+    <p>Còn chuyện chạy đi tìm mức sinh lời cao hơn thì sao? Báo cáo SPIVA của S&amp;P Dow Jones Indices theo dõi các quỹ chủ động suốt nhiều năm. Trong khung 15 năm, phần lớn quỹ chủ động ở Mỹ không thắng nổi chỉ số.</p>
+    <p>Đây là mấy người làm toàn thời gian, có cả đội phân tích, có dữ liệu mà bạn và mình không có.</p>
+  </div>
+
+  <p>Họ còn khó thắng, thì bạn ngồi mò mã buổi tối sau khi dỗ con ngủ có đáng không? 😅</p>
+  <p>Cái này mình nói từ kinh nghiệm đau. Hồi ở Việt Nam mình có 2 business, thu nhập 80 tới 100 triệu một tháng chớ không làng nhàng đâu. Vậy mà business sụm bà chè cái là mình không còn gì. Vì kiếm bao nhiêu mình tiêu hết bấy nhiêu.</p>
+  <p>Thấy năng lực tiêu tiền chưa 🤣</p>
+  <p class="punch">Thu nhập cao không tự thành tài sản. Chỉ phần bạn giữ lại mới thành.</p>
+
+  <div class="doit">
+    <span class="lbl">LÀM KHÁC THẾ NÀO</span>
+    <p>Thay vì dành thời gian tìm chỗ sinh lời cao hơn, dành thời gian đó nâng tỷ lệ giữ lại của bạn. Từ 10% lên 20% có tác động lớn hơn nhiều so với việc chạy đi tìm thêm vài phần trăm lợi nhuận, mà lại không kèm rủi ro mất trắng.</p>
+  </div>
+</section>
+
+<!-- ============ 5 ============ -->
+<section class="step">
+  <div class="step-head">
+    <span class="step-badge">5</span>
+    <h2>ĐỪNG ĐỂ TIỀN NẰM IM VÌ SỢ</h2>
+  </div>
+
+  <figure>
+    <svg viewBox="0 0 560 180" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="100 triệu để yên trong 10 năm sức mua chỉ còn khoảng 70 triệu">
+      <g>
+        <rect x="60" y="52" width="88" height="96" rx="8" fill="#FEBE05"/>
+        <text x="104" y="42" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="15" font-weight="800" fill="#8A6300">100tr</text>
+        <text x="104" y="168" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="12" font-weight="600" fill="#6B7789">hôm nay</text>
+
+        <rect x="236" y="76" width="88" height="72" rx="8" fill="#F3D98A"/>
+        <text x="280" y="66" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="15" font-weight="800" fill="#A08339">≈ 84tr</text>
+        <text x="280" y="168" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="12" font-weight="600" fill="#6B7789">sau 5 năm</text>
+
+        <rect x="412" y="96" width="88" height="52" rx="8" fill="#E3E2DC"/>
+        <text x="456" y="86" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="15" font-weight="800" fill="#8C8B84">≈ 70tr</text>
+        <text x="456" y="168" text-anchor="middle" font-family="Montserrat,sans-serif" font-size="12" font-weight="600" fill="#6B7789">sau 10 năm</text>
+      </g>
+      <line x1="50" y1="148" x2="516" y2="148" stroke="#DBE1EC" stroke-width="2"/>
+    </svg>
+    <figcaption>Cùng 100 triệu, để yên, sức mua rơi dần vì lạm phát.</figcaption>
+  </figure>
+
+  <p>Điều này nghe ngược với điều số 3. Mình biết. Nhưng nó không mâu thuẫn, nó là hai đầu của cùng một cây thước.</p>
+  <p>Điều 3 nói: đừng liều.<br>Điều 5 nói: đừng thủ tới mức không làm gì.</p>
+  <p>Nhiều người ở tuổi 35 đã ăn hành một lần rồi. Hoặc chứng kiến người quen ăn hành. Nên phản ứng tự nhiên là rút hết về vàng với sổ tiết kiệm, rồi thấy yên tâm.</p>
+  <p>Mình hiểu cảm giác đó mà. Vàng cầm trên tay thấy thật. Sổ tiết kiệm nhìn con số không bao giờ đỏ.</p>
+  <p>Nhưng có một cái giá ít ai nói: tiền để yên vẫn mất giá đều đặn mỗi năm vì lạm phát. Nó không hiện lên màn hình đỏ chót nên bạn không thấy.</p>
+
+  <div class="data">
+    <span class="lbl">📊 CÓ SỐ HẲN HOI</span>
+    <p>Lấy số của Tổng cục Thống kê, lạm phát Việt Nam mấy năm gần đây quanh mức 3 tới 4% một năm. Nghe nhỏ xíu. Nhưng 100 triệu để yên trong 10 năm với mức đó thì sức mua chỉ còn tầm 70 triệu.</p>
+  </div>
+
+  <p class="punch">Bạn không thấy 30 triệu đó biến mất lúc nào. Không thông báo, không màn hình đỏ. Nó chỉ đơn giản là không còn ở đó nữa.</p>
+  <p>Mình không nói vàng xấu nha. Vàng là tài sản phòng thủ, để 5 tới 15% danh mục là hợp lý. Mình cũng không biết vàng sẽ đi đâu tiếp, và ai nói chắc chắn về chuyện đó thì bạn nên nghi ngờ ngay.</p>
+  <p>Ý mình là: giữ 100% tài sản ở chỗ không lớn lên được cũng là một quyết định. Nó cũng có giá của nó, chỉ là cái giá đó trả chậm nên không đau ngay thôi.</p>
+
+  <div class="doit">
+    <span class="lbl">LÀM KHÁC THẾ NÀO</span>
+    <p>Quan điểm của mình khá rõ ràng: đại đa số chúng ta nên đầu tư thụ động, đa dạng danh mục, giữ dài hạn. Không cần canh bảng điện, không cần đoán thị trường. Ở Việt Nam thì quỹ mở hiện vẫn là cửa vào hợp lý cho người mới, dù xu hướng dài hạn sẽ nghiêng về ETF.</p>
+  </div>
+
+  <p>Chậm. Chán. Nhưng nó là cái duy nhất mình thấy hiệu quả sau khi đã thử mấy cái nhanh và trả giá đủ rồi 😤</p>
+</section>
+
+<!-- ============ SELF CHECK ============ -->
+<div class="check">
+  <h2>✅ BẠN ĐANG LÀM ĐƯỢC MẤY PHẦN TRÊN 5?</h2>
+  <p class="sub">Đánh dấu cái nào bạn đã làm được. Kết quả hiện ra ngay bên dưới.</p>
+
+  <label class="item"><input type="checkbox" data-k="1"><span>Mình đã viết ra 4 con số: thu nhập, chi tiêu, tài sản, nợ</span></label>
+  <label class="item"><input type="checkbox" data-k="2"><span>Mình có quỹ khẩn cấp đủ 3 tới 6 tháng chi tiêu</span></label>
+  <label class="item"><input type="checkbox" data-k="3"><span>Mình không đang dùng đòn bẩy, không đang theo phím hàng</span></label>
+  <label class="item"><input type="checkbox" data-k="4"><span>Mình biết chính xác mỗi tháng mình bỏ vào bao nhiêu, và nó tự động</span></label>
+  <label class="item"><input type="checkbox" data-k="5"><span>Phần lớn tài sản của mình không nằm im hoàn toàn</span></label>
+
+  <div id="result" aria-live="polite">
+    <p id="score">0 trên 5</p>
+    <p id="verdict">Đánh dấu ở trên để xem bạn đang đứng ở đâu.</p>
+  </div>
+</div>
+
+<h2 class="sec">🎯 KẾT</h2>
+<p>Bắt đầu ở tuổi 35 không muộn.</p>
+<p>Cái làm bạn muộn là 10 năm loay hoay tiếp theo. Đổi mã liên tục. Nghe ông này rồi nghe ông kia. Vào rồi ra. Sợ thì rút hết về vàng, hết sợ thì lại nhảy vô cái đang nóng.</p>
+<p>Mình mất mấy năm ở đúng cái vòng đó. Không phải vì mình lười. Mà vì không ai chỉ cho mình thứ tự phải làm.</p>
+<p class="punch">Bạn thì có rồi đó 😉</p>
+
+<!-- ============ OFFER ============ -->
+<div class="offer">
+  <h2>Biết 5 điều này rồi. Nhưng biết mà không có công cụ thì thường là không làm.</h2>
+  <p>Mình xây RichLife Community đúng để làm cái phần còn lại đó. Không phải chỗ phím hàng. Là chỗ đi từng bước theo đúng thứ tự bạn vừa đọc.</p>
+  <ul>
+    <li>55+ bài học sắp theo đúng thứ tự, 14 bài riêng về quỹ mở</li>
+    <li>Hệ thống Đồng Hành theo dõi con số của bạn theo thời gian</li>
+    <li>Livestream mỗi tuần, hỏi gì cũng được, không sợ hỏi câu ngu</li>
+    <li>397 người đang đi cùng, nhiều người cũng bắt đầu ở tuổi 30 40</li>
+  </ul>
+  <p>Còn đây là mấy thứ bạn sẽ không thấy trong RLC:</p>
+  <ul class="nope">
+    <li>Phím hàng</li>
+    <li>Khoá học bán thêm, upsell</li>
+    <li>Quảng cáo, link affiliate</li>
+  </ul>
+  <p>(Dù việc không cho để link giới thiệu cũng làm mình mất xèng đó nghe 😭)</p>
+  <div class="guarantee">🛡️ Thử 7 ngày miễn phí. Hủy lúc nào cũng được. 30 ngày đầu không hài lòng thì hoàn tiền 100%.</div>
+  <a class="cta" href="https://www.skool.com/rlc/about?src=hvco35">Xem RichLife Community</a>
+  <p class="cta-sub">Hệ thống tự nhắc trước 3 ngày khi hết trial. Mình không kiếm tiền từ việc bạn quên hủy.</p>
+</div>
+
+<p class="ps">P.S: nếu đọc tới đây mà bạn thấy điều số 3 hơi quen quen, thì mình nghĩ bạn nên đọc lại nó thêm lần nữa. Đó là điều đắt nhất mình từng học 😅</p>
+
+</main>
+
+<footer>
+<p>Mình không phải chuyên gia tài chính được cấp phép. Nội dung trong bài là chia sẻ cá nhân dựa trên kinh nghiệm và tài liệu công khai, không phải lời khuyên đầu tư riêng cho trường hợp của bạn. Bạn tự chịu trách nhiệm với quyết định tài chính của mình.</p>
+<p>Nguồn số liệu nhắc trong bài: Morningstar (Mind the Gap), Chague &amp; De-Losso (FGV), SPIVA của S&amp;P Dow Jones Indices, Tổng cục Thống kê Việt Nam.</p>
+</footer>
+
+</div>
+
+<script>
+(function(){
+  var boxes=[].slice.call(document.querySelectorAll('.check input'));
+  var scoreEl=document.getElementById('score');
+  var verdictEl=document.getElementById('verdict');
+  var V={
+    0:'Bạn đang ở vạch xuất phát. Tin tốt là 5 điều trên làm theo thứ tự thì không cái nào khó.',
+    1:'Bạn đang ở vạch xuất phát. Tin tốt là 5 điều trên làm theo thứ tự thì không cái nào khó.',
+    2:'Bạn đã làm đúng phần nền rồi. Chỗ hụt của bạn thường nằm ở điều 4 và 5.',
+    3:'Bạn đã làm đúng phần nền rồi. Chỗ hụt của bạn thường nằm ở điều 4 và 5.',
+    4:'Bạn đi trước đa số rồi đó. Việc còn lại là giữ cho đều, mà giữ đều lại là phần khó nhất.',
+    5:'Bạn đi trước đa số rồi đó. Việc còn lại là giữ cho đều, mà giữ đều lại là phần khó nhất.'
+  };
+  function update(){
+    var checked=boxes.filter(function(b){return b.checked;});
+    var n=checked.length;
+    scoreEl.textContent=n+' trên 5';
+    verdictEl.textContent=n===0?'Đánh dấu ở trên để xem bạn đang đứng ở đâu.':V[n];
+    /* HOOK Supabase: gửi kết quả về server ở đây.
+       checked.map(function(b){return b.dataset.k;})  -> mục nào được tick
+       Nhớ debounce, và nhớ dòng "mình lưu kết quả để biết người đọc
+       đang thiếu phần nào, không bán, không chia sẻ cho ai." */
+  }
+  boxes.forEach(function(b){b.addEventListener('change',update);});
+  update();
+})();
+</script>
+</body>
+</html>
